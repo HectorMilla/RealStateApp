@@ -1,24 +1,24 @@
-header{
+header {
   background: $darkPurple;
   color: white;
   overflow: auto;
   padding: 20px 15px;
-  .logo{
+  .logo {
     float: left;
   }
-  nav{
+  nav {
     float: right;
-    a{
+    a {
       color: white;
       text-decoration: none;
       padding: 10px 20px;
       text-transform: capitalize;
       font-weight: 300;
-      font-size: .9rem;
-      &:hover{
-        color:$offWhite;
+      font-size: 0.9rem;
+      &:hover {
+        color: $offWhite;
       }
-      &.register-btn{
+      &.register-btn {
         background: $pink;
         padding: 7px 25px;
         text-align: center;

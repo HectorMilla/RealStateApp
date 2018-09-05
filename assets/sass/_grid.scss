@@ -1,4 +1,4 @@
-.container{
+.container {
   width: 100%;
   margin: 0 auto;
 }
@@ -8,7 +8,7 @@
   display: table;
   clear: both;
 }
-[class*='col-']{
+[class*="col-"] {
   float: left;
   padding: 1em;
   width: 100%;
@@ -21,9 +21,9 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-      .col-sm-#{$i} {
-        width: 100% / $grid-columns * $i;
-      }
+    .col-sm-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
   }
 }
 @media #{$breakpoint-medium} {
@@ -32,9 +32,9 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-      .col-md-#{$i} {
-        width: 100% / $grid-columns * $i;
-      }
+    .col-md-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
   }
 }
 @media #{$breakpoint-large} {
@@ -43,9 +43,9 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-      .col-lg-#{$i} {
-        width: 100% / $grid-columns * $i;
-      }
+    .col-lg-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
   }
 }
 @media #{$breakpoint-xl} {
@@ -54,8 +54,8 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-      .col-xl-#{$i} {
-        width: 100% / $grid-columns * $i;
-      }
+    .col-xl-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
   }
 }
